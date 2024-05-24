@@ -1,7 +1,7 @@
 ﻿
-var lines = File.ReadAllLines("../../../../../../input");
-//var lines = File.ReadAllLines("../../../../../../part_1_example");
-//var lines = File.ReadAllLines("../../../../../../part_2_example");
+var lines = File.ReadAllLines("../../../../../input");
+//var lines = File.ReadAllLines("../../../../../part_1_example");
+//var lines = File.ReadAllLines("../../../../../part_2_example");
 
 PartOne();
 PartTwo();

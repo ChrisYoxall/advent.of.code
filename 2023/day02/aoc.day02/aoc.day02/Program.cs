@@ -1,10 +1,6 @@
-﻿var lines = File.ReadAllLines("../../../../../../input");
-//var lines = File.ReadAllLines("../../../../../../part_1_example");
-//var lines = File.ReadAllLines("../../../../../../part_2_example");
-
-const int maxRed = 12;
-const int maxBlue = 14;
-const int maxGreen = 13;
+﻿var lines = File.ReadAllLines("../../../../../input");
+//var lines = File.ReadAllLines("../../../../../part_1_example");
+//var lines = File.ReadAllLines("../../../../../part_2_example");
 
 
 PartOne();
@@ -35,6 +31,10 @@ void PartOne()
 
 bool AreSetsPossible(string[] gameSets)
 {
+    const int maxRed = 12;
+    const int maxBlue = 14;
+    const int maxGreen = 13;
+    
     foreach (var set in gameSets)
     {
         // Get all cubes and colours in this set
